@@ -1,0 +1,68 @@
+a img{
+    margin-top: 0.5em;
+    border-radius: 30px;
+}
+
+/*-------------selection -----------------*/
+#selection{
+    display: flex;
+    background-color: slategray;
+    background-image: url(../img/tower.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.character-hide{
+    display: none;
+}
+
+.character{
+    font-size: 3em;
+    font-weight: bold;
+    color:darkred;
+}
+
+.main-class {
+    text-align: center;
+    display:flex;
+}
+
+.character-selected img{
+    width: 70%;
+
+}
+
+.start-stats{
+    font-size: 2em;
+    color: darkred;
+    width: 30%;
+    margin-top: 2em;
+    font-weight: bold;
+    text-shadow: 0 0 0.2em white;
+
+}
+
+.home {
+    color: darkred;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    background-color: rgb(200, 206, 252);
+    margin-top: 4em ;
+}
+
+.start {
+    color: darkred;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    background-color: rgb(200, 206, 252);
+    margin-top: 4em ;
+    margin-left: 4em;
+}
+
+/*----------Start-----------*/
+
+#start {
+    
+}
